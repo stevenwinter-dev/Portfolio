@@ -1,0 +1,194 @@
+/* Setup stuff */
+body, html, .container {
+    height: 100%;
+    color: white;
+  }
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 32px;
+}
+
+header {
+    background-image: url('../img/parallax2.png');
+    height: 650px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-box-shadow:0 4px 3px rgba(0,0,0,.5);;
+    -moz-box-shadow:0 4px 3px rgba(0,0,0,.5);;
+    box-shadow:0 4px 3px rgba(0,0,0,.5);;
+  }
+
+.logo {
+    width: 48px;
+    height: 48px;
+    margin-right: 15px;
+}
+
+h1 {
+    margin-right: auto;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1em;
+}
+
+.job {
+    font-size: .6em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+li:nth-child(-n+2) a {
+    margin-right: 15px;
+}
+
+.header-content a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 15px;
+    transition: border-bottom 0.2s linear;
+}
+
+a:visited {
+    color: white;
+}
+
+.header-content a:hover {
+    border-bottom: 3px solid #67BAAE;
+}
+
+.header-content ul:hover a {
+    opacity: .50;
+    transition: .3s;
+}
+.header-content ul a:hover {
+    opacity: 1;
+    transition: .3s;
+}
+
+/* Hero Text */
+
+.intro-text {
+    margin-top: 125px;
+    letter-spacing: 2px;
+}
+
+.intro-text h2 {
+    font-size: 2.5em;
+}
+
+.intro-text p {
+    font-size: 1.5em;
+}
+
+/* Button */
+  
+.btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #FA703F;
+    border-radius: 0.6em;
+    color: #FA703F;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 50px;
+  }
+  .btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+  }
+  
+  .btn {
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+  .btn:hover {
+    box-shadow: 0 0 40px 40px #e74c3c inset;
+  }
+
+  /* Projects */
+
+  main {
+      color: black!important;
+  }
+
+.main-content {
+
+}
+
+.project {
+    margin-top: 125px;
+    padding-bottom: 125px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid gray;
+}
+
+.project-img {
+    width: 450px;
+}
+
+.project-text-container {
+    display: inline-block;
+    width: 450px;
+}
+
+.project-text-container h3 {
+    font-size: 1.5em;
+}
+
+.skills {
+    padding: 0;
+}
+
+.skills li {
+    letter-spacing: 0;
+}
+
+.github {
+    width: 100px;
+}
+
+.react {
+    width: 50px;
+}
