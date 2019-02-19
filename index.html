@@ -8,6 +8,7 @@
     <link rel="shortcut icon" type="image/png" href="img/favicon.ico"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.2.1/dist/smooth-scroll.min.js"></script>
 </head>
 <body>
     <header class="header-text">
@@ -16,8 +17,8 @@
                 <img src="img/favicon.ico" class="logo" />
                 <h1>Steven Winter<br/><span class="job">Web Developer</span></h1>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Projects</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div> 
@@ -28,20 +29,48 @@
             </div> 
         </div>     
     </header>
-    <main class="container">
+    <main class="container"> 
         <div class="main-content">
             <div class="project">
-                <a href="https://findyouraafteam.com"><img src="./img/aaf.png" alt="AAF" class="project-img"></a>
+                    <a id="projects"></a>
+                <a href="https://findyouraafteam.com" target="_blank"><img src="./img/aaf.png" alt="AAF" class="project-img"></a>
                     <div class="project-text-container">
                         <h3>Find Your AAF Team</h3>
                         <p>This web application accepts user input and displays a result based on that input.</p>
                         <ul class="skills">
-                            <li><a href="https://github.com/stevenwinter-me/which-AAF"><img src="img/GitHub_Logo.png" alt="GitHub" class="github" /></a></li>
+                            <li><a href="https://github.com/stevenwinter-me/which-AAF" target="_blank"><img src="img/GitHub-Mark-64px.png" alt="GitHub" class="github" /></a></li>
                             <li><img src="img/react.png" alt="React" class="react" /></li>
                         </ul>
-                </div>
+                    </div>
             </div> 
+            <hr>
+            <div class="project">
+                    <a href="https://frosty-kalam-d097eb.netlify.com/" target="_blank"><img src="./img/bestbuy.png" alt="Best Buy" class="project-img"></a>
+                        <div class="project-text-container">
+                            <h3>Best Buy Laptop Sales</h3>
+                            <p>This web application leverages the Best Buy API to find sales on laptops.</p>
+                            <ul class="skills">
+                                <li><a href="https://github.com/stevenwinter-me/bblaptopsales" target="_blank"><img src="img/GitHub-Mark-64px.png" alt="GitHub" class="github" /></a></li>
+                                <li><img src="img/react.png" alt="React" class="react" /></li>
+                            </ul>
+                        </div>
+            </div>
+            <hr> 
+            <div class="project">
+                    <a href="https://stevenwinter.me" target="_blank"><img src="./img/stevenwinter.png" alt="Steven Winter Portfolio" class="project-img"></a>
+                        <div class="project-text-container">
+                            <h3>Steven Winter Portfolio</h3>
+                            <p>This web-site is a portfolio of my work.</p>
+                            <ul class="skills">
+                                <li><a href="https://github.com/stevenwinter-me/Portfolio" target="_blank"><img src="img/GitHub-Mark-64px.png" alt="GitHub" class="github" /></a></li>
+                            </ul>
+                        </div>
+            </div>
+            <hr> 
     </div>
 </main>
 </body>
+<script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
 </html>
