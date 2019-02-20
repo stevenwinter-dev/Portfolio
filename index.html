@@ -19,7 +19,7 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div> 
             <div class="intro-text">
@@ -45,6 +45,18 @@
             </div> 
             <hr>
             <div class="project">
+                    <a href="https://jbarrangements.com" target="_blank"><img src="./img/jba1.png" alt="Joel Brown Arrangements" class="project-img jb"></a>
+                        <div class="project-text-container">
+                            <h3>Joel Brown Arrangements</h3>
+                            <p>This eCommerce store displays products in an efficient yet aesthetically pleasing layout by combining functionality with a great user experience.  </p>
+                            <ul class="skills">
+                                <li><img src="img/drupal.png" alt="Drupal" class="drupal" /></li>
+                                <li><img src="img/php.png" alt="PHP" class="php" /></li>
+                            </ul>
+                        </div>
+            </div>
+            <hr>  
+            <div class="project">
                     <a href="https://frosty-kalam-d097eb.netlify.com/" target="_blank"><img src="./img/bestbuy.png" alt="Best Buy" class="project-img"></a>
                         <div class="project-text-container">
                             <h3>Best Buy Laptop Sales</h3>
@@ -55,7 +67,7 @@
                             </ul>
                         </div>
             </div>
-            <hr> 
+            <hr>
             <div class="project">
                     <a href="https://stevenwinter.me" target="_blank"><img src="./img/stevenwinter.png" alt="Steven Winter Portfolio" class="project-img"></a>
                         <div class="project-text-container">
@@ -66,9 +78,24 @@
                             </ul>
                         </div>
             </div>
-            <hr> 
+            
     </div>
 </main>
+    <section class="contact" id="contact">
+        <div class="container">
+                <h2>Get in touch</h2>
+                <form action="https://formspree.io/steveplayshorn@gmail.com" method="POST">
+                    <input placeholder="Name" type="text" name="name" required=""><br>
+                    <input placeholder="E-Mail" type="email" name="email" required=""><br>
+                    <textarea placeholder="Your Message" type="text" name="message"></textarea><br>
+                    <button class="btn2">Hire Me</button>
+                </form>
+        </div>
+    </section> 
+<footer class="footer">
+        <p class="created">Created by: <a href="https://stevenwinter.me">StevenWinter.me</a>
+        <p class="copyright">&copy;2019 Steven Winter</p> 
+    </footer>
 </body>
 <script>
         var scroll = new SmoothScroll('a[href*="#"]');
