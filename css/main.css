@@ -36,6 +36,7 @@ header {
     box-shadow:0 4px 3px rgba(0,0,0,.5);
   }
 
+
 .logo {
     width: 48px;
     height: 48px;
@@ -369,6 +370,10 @@ hr {
       .job {
           display: none;
       }
+      header {
+        background-image: url('../img/parallaxmobile.png');
+        background-attachment: scroll;
+      }
       .header-text {
           height: 450px;
       }
@@ -427,6 +432,9 @@ hr {
       .btn{
           margin-top: 25px;
       }
+    .header-content {
+        padding-top: 0px;
+    }
     .header-text {
         height: 475px;
     }
@@ -438,6 +446,7 @@ hr {
     }
     .intro-text {
         margin-left: 5px;
+        text-align: center;
     }
     .intro-text h2 {
         font-size: 1.2em;
