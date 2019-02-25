@@ -171,7 +171,12 @@ a:visited {
 
 .project-img {
     width: 450px;
+    /* transition: transform .2s; */
 }
+
+/* .project-img:hover {
+    transform: scale(1.06);
+} */
 
 .project-text-container {
     display: inline-block;
