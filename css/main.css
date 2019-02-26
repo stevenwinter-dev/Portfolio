@@ -154,6 +154,29 @@ a:visited {
   }
 
   /* Projects */
+  /* Animations */
+  @keyframes slide1 {
+    0%  { left:-1800px; top:0px;}
+    100% { left:0px; top:0px;}
+  }
+
+  @keyframes slide2 {
+    0%  { left:1800px; top:0px;}
+    100% { left:0px; top:0px;}
+  }
+  
+  .animate-left {
+    position: relative;
+    animation-name: slide1;
+    animation-duration: 2s;
+  }
+
+  .animate-right {
+    position: relative;
+    animation-name: slide2;
+    animation-duration: 2s;
+  }
+
 
   main {
       color: black!important;
